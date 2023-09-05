@@ -3,7 +3,8 @@ import {BiLogoFacebook, BiLogoInstagram, BiLogoYoutube} from "react-icons/bi"
 
 export default function Footer() {
   return (
-    <div className='h-[300px] w-[100vw] bg-[#cda764] text-[#FFF7ED] flex flex-col items-center justify-center'>
+    <div className='h-[300px] w-[100vw] text-[#000000] flex flex-col items-center justify-center'>
+        <span className='h-[0.5px] w-[80vw] bg-[#000000]'></span>
 
         <div className='h-[90%] text-[14px] flex '>
 

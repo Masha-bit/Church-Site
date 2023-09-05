@@ -7,6 +7,7 @@ import MassSchedule from './components/MassSchedule'
 import Footer from './components/Footer'
 import {SlArrowUp} from 'react-icons/sl'
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 
 export default function Home() {
 
@@ -78,9 +79,18 @@ export default function Home() {
 
       <section className='h-[auto]'>
       <Footer/>
+      <div className='h-[20px] w-[100vw] bg-[#000000] flex items-center justify-center font-roboto text-[11px] text-[white]'>
+        Copyrights © 2020 Catholic Church of the Assumption , All Right Reserved. | Design by 
+        <Link
+              href={`./`}
+              className="decoration-[none] border-dotted border-b-2 border-[#fafafa9a] hover:text-white hover:transition-all transition-all mx-1"
+            >
+              Masha.
+            </Link>
+      </div>
       </section>
 
-      
+
     </main>
   )
 }
