@@ -4,7 +4,7 @@ import SwipeUp from './SwipeUp'
 
 export default function Contact(props) {
   return (
-    <div id="contact" className='text-[#000000] font-cinzel h-[100%] w-[100%] sm:w-[100vw]'>
+    <div id="contact" className='text-[#000000] font-cinzel h-[100%] w-[100vw] '>
             <h2 className='sm:w-[400px] sm:text-center sm:h-[auto] sm:text-[20px] font-cinzel text-[35px] sm:p-3 '>
                 <SwipeUp>
                 {props.title}

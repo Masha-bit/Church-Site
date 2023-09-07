@@ -23,7 +23,7 @@ export default function page() {
   return (
     <main className='h-[auto] relative'>
 
-      <ScrollToTop/>
+      {/* <ScrollToTop/> */}
 
     <section className='h-[70px] w-[100vw]'>
       <Nav delay={450}/>
@@ -98,7 +98,7 @@ export default function page() {
         </aside>
     </section>
 
-    <section>
+    <section className='h-[auto] w-[100vw] flex items-center justify-center'>
     <Contact title={`VISIT!`} subtitle={`We hope that your visit among us will be physically and spiritually refreshing.`} messageplaceholder={`Hello bro and sis in Jesus Christ!`}/>
       
     </section>
@@ -106,7 +106,7 @@ export default function page() {
 
    
 
-    <section className='h-[auto]'>
+    <section className='h-[auto] w-[100vw] flex items-center justify-center'>
     <Footer/>
     <div className='h-[20px] w-[100vw] bg-[#000000] flex items-center justify-center font-roboto text-[11px] text-[white]'>
       Copyrights © 2020 Catholic Church of the Assumption , All Right Reserved. | Design by 

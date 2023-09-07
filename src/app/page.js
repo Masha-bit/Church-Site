@@ -54,13 +54,16 @@ export default function Home() {
       <section className='h-[600px] w-[100vw] bg-[yellow] flex items-center justify-center overflow-hidden relative'>
         <SwiperComp/>
 
-        <div className='h-[200px] w-[auto] absolute left-0 z-10 p-8 '>
-          <p className='text-[40px] text-[#000000] font-cinzel font-extrabold'>
-          <span className='font-garamond text-[14px] text-[#000000]'>WELCOME TO!</span>
-          <br/>
-          Catholic Church of the Assumption ,
-          <br />
-          Awoyaya
+        <div className='h-[200px] w-[100vw] absolute left-0 z-10'>
+          <p className='text-[40px] text-[#000000] font-cinzel font-extrabold flex flex-col items-center justify-center'>
+          <span className='text-[14px] text-[#392e25] font-oswald'>WELCOME TO!</span>
+
+          <div className='h-[100px] w-[auto] relative flex items-center justify-center text-[30px] font-cinzel'>
+          <span className='h-[0.5px] w-[150px] bg-[black] mx-5'></span> 
+          Catholic Church of the Assumption , Awoyaya
+          <span className='h-[0.5px] w-[150px] bg-[black] mx-5'></span> 
+          </div>
+          
           </p>
         </div>
       </section>
