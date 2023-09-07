@@ -27,7 +27,7 @@ export default function NestedNav(props) {
 
 
     const ministry_group = [
-        "parish ministries","spiritual and prayer groups","fellowship and social groups","educational and study groups","special devotions",
+        "parish ministries","spiritual and prayer groups","fellowship and social groups","educational and study groups","special devotions","liturgical ministries"
     ]
   return (
     <table className='m-0 p-0'>
@@ -39,9 +39,9 @@ export default function NestedNav(props) {
                     {e}
                 </td>
 
-                <div className={isActive == e ? `hover:cursor-pointer h-[auto] w-[300px] bg-[#f6eee3a6] text-[#2e1a1a] flex flex-col z-[10] text-left`: `hidden`} onMouseOver={() => handle_hover(e)} onMouseLeave={() => handle_hover("")}>
+                <div className={isActive == e ? `hover:cursor-pointer h-[auto] w-[300px] pb-2 bg-[#ad91606c] text-[#2e1a1a] flex flex-col z-[10] text-left`: `hidden`}  onMouseEnter={() => handle_hover(e)} onMouseLeave={() => handle_hover("")}>
                 {ministryDescription.ministry.filter((m) => m.group == e ).map((ministry) => (
-                    <Link href={`/Ministry/MinistryDescription/${ministry.slug}`} className=''>
+                    <Link href={`/Ministry/MinistryDescription/${ministry.slug}`} className='text-[black] no-underline'>
                     <p className='h-[50px] text-left m-0 py-0 px-3 capitalize text-[13px] flex items-center transition-colors duration-[350ms] hover:transition-colors hover:duration-[350ms] hover:bg-[#ad91606c]'>{ministry.name}</p>
                     </Link>
                     ))}

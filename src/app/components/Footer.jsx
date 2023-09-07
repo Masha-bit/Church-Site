@@ -42,13 +42,13 @@ export default function Footer() {
                     
 
                     <div className='h-[50px] w-[100px] flex items-center justify-around '>
-                    <a href="https://www.facebook.com/catholicchurchofassumptionawoyaya" target="_blank">
+                    <a href="https://www.facebook.com/catholicchurchofassumptionawoyaya" target="_blank" className='text-[black]'>
                             <BiLogoFacebook size={16}/>
                         </a>
-                        <a href="">
+                        <a href="" className='text-[black]'>
                             <BiLogoInstagram size={16}/>
                         </a>
-                        <a href="">
+                        <a href="" className='text-[black]'>
                             <BiLogoYoutube size={16}/>
                         </a>
                     </div>
@@ -60,17 +60,17 @@ export default function Footer() {
                     
                     <h1 className='font-cinzel text-[20px] my-2 underline '>QUICK LINKS</h1>
                     
-                    <span className='flex flex-col text-left'>
-                    <a href="#" className='my-2'>
+                    <span className='flex flex-col text-left font-cinzel'>
+                    <a href="#" className='my-2 text-[black] no-underline'>
                     HOME
                     </a>
-                    <a href="" className='my-2'>
+                    <a href="" className='my-2 text-[black] no-underline'>
                     MINISTRIES
                     </a>
-                    <a href="" className='my-2'>
+                    <a href="" className='my-2 text-[black] no-underline'>
                     SACRAMENTS
                     </a>
-                    <a href="" className='my-2'>
+                    <a href="" className='my-2 text-[black] no-underline'>
                     DONATIONS
                     </a>
                     </span>

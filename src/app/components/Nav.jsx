@@ -72,26 +72,26 @@ export default function Nav(props) {
         </aside>
 
         <aside className='h-[100%] w-[40%] flex items-center justify-center text-[13px]'>
-            <div className='w-[90%] flex items-center justify-around '>
-                <Link href="/#">
+            <div className='w-[90%] flex items-center justify-around text-[black] no-underline'>
+                <Link href="/#" className='text-[black] no-underline'>
                     <p  className={`${isActive == "home" ? "open":"close"}`} onClick={() => handleLinkActive("home")}>HOME</p>
                 </Link>
-                <Link href="/Connect" >
+                <Link href="/Connect" className='text-[black] no-underline' >
                     <p className={`${isActive == "connect" ? "open":"close"}`} onClick={() => handleLinkActive("connect")}>CONNECT</p>
                 </Link>
-                <Link href="/Ministry" >
+                <Link href="/Ministry"  className='text-[black] no-underline'>
                     <p className={`${isActive == "ministry" ? "open":"close"}`} onClick={() => handleLinkActive("ministry")}>MINISTRIES</p>
                 </Link>
 
-                <Link href="" >
+                <Link href="" className='text-[black] no-underline'>
                     <p className={`${isActive == "sacrament" ? "open":"close"}`} onClick={() => handleLinkActive("sacrament")}>SACRAMENTS</p>
                 </Link>
 
-                <Link href="" >
+                <Link href="" className='text-[black] no-underline'>
                     <p className={`${isActive == "media" ? 'open':'close'}`} onClick={() => handleLinkActive("media")}>MEDIA</p>
                 </Link>
 
-                <a href="" className='hover:transition-all hover:text-[black]'>
+                <a href="" className='hover:transition-all hover:text-[black] no-underline'>
                     <div className='h-[40px] w-[120px] bg-[#b4884a62] transition-all hover:transition-all hover:bg-[#86673ba7] hover:text-[white] flex items-center justify-center text-[black]'>DONATE TODAY</div>
                 </a>
             </div>

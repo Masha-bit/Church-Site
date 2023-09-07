@@ -86,7 +86,7 @@ export default function Home() {
         Copyrights © 2020 Catholic Church of the Assumption , All Right Reserved. | Design by 
         <Link
               href={`./`}
-              className="decoration-[none] border-dotted border-b-2 border-[#fafafa9a] hover:text-white hover:transition-all transition-all mx-1"
+              className="decoration-[none] border-dotted border-b-2 border-[#fafafa9a] hover:text-white hover:transition-all transition-all mx-1 no-underline font-oswald text-[white]"
             >
               Masha.
             </Link>

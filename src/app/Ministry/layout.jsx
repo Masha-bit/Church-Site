@@ -26,12 +26,12 @@ export default function MinistryLayout({ children }) {
 
     <Header title={"OUR MINISTRIES"} image={'/subscribe-bg-scaled.jpg'}/>
 
-    <section className='h-[900px] w-[100vw] bg-[white] flex flex-col items-center font-cinzel relative'>
+    <section className='h-[auto] w-[100vw] bg-[white] flex flex-col items-center font-cinzel relative'>
       <p className='w-[100vw] h-[auto] block text-center font-oswald text-[15px] text-[#825835] absolute top-0 left-0 m-0'>MINISTRY</p>
 
-        <aside className='h-[150px] w-[100vw] p-2 flex flex-col items-center my-4'>
+        <aside className='h-[auto] w-[100vw] p-2 flex flex-col items-center my-4'>
 
-        <div className='h-[100px] w-[80vw] text-[30px] text-[#000000] text-center flex items-center justify-center relative'>
+        <div className='h-[200px] w-[80vw] text-[30px] text-[#000000] text-center flex items-center justify-center relative'>
             <span className='h-[1px] w-[50px] bg-[#f1d1b7] mx-5'></span>The participation of the People of God in “the work of God.”<span className='h-[1px] w-[50px] bg-[#f1d1b7] mx-5'></span>
             <p className='w-[100%] h-[auto] block text-center font-oswald text-[12px] text-[#825835] absolute bottom-0 left-0'>
             “Love is shown more in deeds than in words.” | St. Ignatius of Loyola</p>
@@ -41,7 +41,7 @@ export default function MinistryLayout({ children }) {
             <NestedNav />
         </aside>
 
-    <section className='h-[500px] w-[100vw]'>
+    <section className='h-[auto] w-[100vw]'>
         {children}
     </section>
     </section>
