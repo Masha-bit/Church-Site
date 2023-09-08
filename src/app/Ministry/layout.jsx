@@ -35,7 +35,7 @@ export default function MinistryLayout({ children }) {
         </aside>
 
     <section className='h-[auto] w-[100vw]'>
-        {/* {children} */}
+        {children}
     </section>
 
     </section>
