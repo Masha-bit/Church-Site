@@ -13,10 +13,10 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Catholic Church of the Assumption Awoyaya',
-  description: '',
-}
+// export const metadata = {
+//   title: 'Catholic Church of the Assumption Awoyaya',
+//   description: '',
+// }
 
 export default function RootLayout({ children }) {
   const bro = "#765426"
