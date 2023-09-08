@@ -13,7 +13,14 @@ const MinistryDes = () => {
   const m = ministryDescription.ministry.find((a) => a.slug == slug);
 
   if (!m) {
-    return <div>Product Not Found</div>
+    return (
+    <div className='h-[400px] w-[100vw] flex items-center justify-center'>
+    <p className='font-cinzel text-center w-[60%]'>
+      
+      At  St. Ignatius, we are especially mindful of our neighbors in need. Our 34 social and service ministries provide opportunities for our parishioners to practice their faith through community service, whether advocating for the environment, networking as young moms, or providing opportunities to speak out against unjust systems that undermine the dignity and value of our diversity as a nation. We also collaborate ecumenically and support social justice initiatives with other Christian and non-Christian faith communities across Manhattan.
+
+    </p>
+    </div>)
   }
   return (
   <main className='h-[auto] w-[auto] flex flex-col items-center justify-center'>
