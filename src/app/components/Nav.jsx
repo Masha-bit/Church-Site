@@ -102,7 +102,7 @@ export default function Nav(props) {
         .open{
             transition: color 350ms ease-in-out;
             color: black;
-            font-size: 17px; 
+            // font-size: 17px; 
         }
         .close{
             transition: color 350ms ease-in-out;
