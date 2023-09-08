@@ -68,7 +68,7 @@ export default function Nav(props) {
         </aside>
 
         <aside className='h-[100%] w-[20%] flex items-center justify-center '>
-            <img src='/logo.png' width={70}/>
+            <img src='/immaculate mother.png' width={35}/>
         </aside>
 
         <aside className='h-[100%] w-[40%] flex items-center justify-center text-[13px]'>
@@ -80,7 +80,7 @@ export default function Nav(props) {
                     <p className={`${isActive == "connect" ? "open":"close"}`} onClick={() => handleLinkActive("connect")}>CONNECT</p>
                 </Link>
                 <Link href="/Ministry"  className='text-[black] no-underline'>
-                    <p className={`${isActive == "ministry" ? "open":"close"}`} onClick={() => handleLinkActive("ministry")}>MINISTRIES</p>
+                    <p className={`${isActive == "ministry" ? "open":"close"}`} onClick={() => handleLinkActive("ministry")}>LAITY</p>
                 </Link>
 
                 <Link href="" className='text-[black] no-underline'>

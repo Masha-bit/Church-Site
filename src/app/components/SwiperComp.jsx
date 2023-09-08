@@ -30,13 +30,19 @@ export default function SwiperComp() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src='/d2.jpg'/>
+          <img src='/church_img/c_building.jpeg'/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src='/d3.jpg'/>
+          <img src='/church_img/cimg.jpeg'/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src='/d3.jpg'/>
+          <img src='/church_img/cimg (2).jpeg'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='/church_img/cimg (3).jpeg'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='/church_img/cimg (4).jpeg'/>
         </SwiperSlide>
         {/* <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>

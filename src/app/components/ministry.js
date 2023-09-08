@@ -291,7 +291,7 @@ const ministryDescription = {
         group: "spiritual and prayer groups",
         abbrv: null ,
         name: 'devotion to the precious blood of Jesus Christ',
-        slug: 'devotion-to-the-precious-blood-of-Jesus Christ',
+        slug: 'devotion-to-the-precious-blood-of-Jesus-Christ',
         description:"The Devotion to the Precious Blood of Jesus Christ is a spiritually enriching ministry that centers on the profound significance of Christ's blood shed for the salvation of humanity. This devotion encourages believers to contemplate the immense love and sacrifice of Jesus through prayer and meditation. Members of this ministry gather regularly to reflect on the Precious Blood's redemptive power, seeking to deepen their personal relationship with Christ and grow in holiness. They engage in prayerful practices and meditations that evoke a profound sense of gratitude for the divine gift of salvation through Jesus' Precious Blood.",
        office:{
         president: "Rose Mmerem",

@@ -6,8 +6,10 @@ export default function MissionStatement() {
         <p className='text-[28px] font-cinzel mt-[4rem]'>Parish Mission Statement</p>
         <span className='w-[40%] border border-black rounded-tr-[2rem] rounded-bl-[2rem]'>
         </span>
-        <p className='h-[180px] w-[450px] text-center font-garamond'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus quis laudantium nemo accusantium atque voluptatibus? Laborum ipsum ratione reprehenderit, quaerat repellendus aperiam, eos veniam asperiores, quis optio reiciendis facere quos?
+        <p className='h-[180px] w-[750px] text-center font-roboto leading-8'>
+            To build a community of God's people daily enlightened by the Word, nourished at the Table, and who are empassioned to embrace the beauty of th sacred liturgy.
+            {/* <br/>
+            To be a beacon of light guiding the people of God to eternal salvation. */}
         </p>
 
     <span className='h-[100px] w-[100px] rounded-full z-10 absolute -top-10 shadow-2xl flex items-center justify-center bg-cover'

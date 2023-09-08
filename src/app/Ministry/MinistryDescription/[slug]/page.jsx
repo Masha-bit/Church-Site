@@ -14,10 +14,10 @@ const MinistryDes = () => {
 
   if (!m) {
     return (
-    <div className='h-[400px] w-[100vw] flex items-center justify-center'>
-    <p className='font-cinzel text-center w-[60%]'>
+    <div className='h-[300px] w-[100vw] flex items-center justify-center'>
+    <p className='text-center w-[70%] leading-9 font-oswald'>
       
-      At  St. Ignatius, we are especially mindful of our neighbors in need. Our 34 social and service ministries provide opportunities for our parishioners to practice their faith through community service, whether advocating for the environment, networking as young moms, or providing opportunities to speak out against unjust systems that undermine the dignity and value of our diversity as a nation. We also collaborate ecumenically and support social justice initiatives with other Christian and non-Christian faith communities across Manhattan.
+      At the Catholic Church of the Assumption   , we are especially mindful of our neighbors in need. Our 34 social and service ministries provide opportunities for our parishioners to practice their faith through community service, whether advocating for the environment, networking as young moms, or providing opportunities to speak out against unjust systems that undermine the dignity and value of our diversity as a nation. We also collaborate ecumenically and support social justice initiatives with other Christian and non-Christian faith communities across Manhattan.
 
     </p>
     </div>)
@@ -45,11 +45,11 @@ const MinistryDes = () => {
             <tbody className='h-[auto] w-[100%]'>
               <tr>
                 <th>Days</th>
-                <td> {m.meeting_date} </td>
+                <td> {m.meeting_date? m.meeting_date : `to be announced later`} </td>
               </tr>
               <tr>
                 <th>Meeting Times</th>
-                <td> {m.meeting_time} </td>
+                <td> {m.meeting_time? m.meeting_time : `to be announced later`} </td>
               </tr>
               <tr className='text-center font-roboto my-2 text-[11px]'>
                 {m.meeting_note}
@@ -64,15 +64,30 @@ const MinistryDes = () => {
         <div className='h-[200px] w-[100%]'>
         <p className='h-[auto] w-[100%] font-oswald text-[14px] text-[#ddc78f] text-center'>CONTACTS</p>
 
-        <table className='h-[auto] w-[100%]'>
-        <tbody className='h-[auto] w-[100%]'>
-            <tr>
-              <th>{ m.office.chairman ? `Chairman`: m.office.choir_master? `Choir Master`: m.office.president? `President`: m.office.pro? `P.R.0`: m.office.secretary? `Secretary`: `please stay posted`}</th>
 
-              <td>{m.office.chairman ? m.office.chairman: m.office.choir_master? m.office.choir_master: m.office.president? m.office.president: m.office.pro? m.office.pro: m.office.secretary?  m.office.secretary: `please stay posted`}  {`(${ m.office.chairman ? m.office.chairman_contact: m.office.president? m.office.president_contact: m.office.pro? m.office.pro_contact: m.office.secretary?  m.office.secretary_contact: `...`})`} </td>
-          </tr>
+        <table className='h-[auto] w-[100%]'>
+        <tbody className='h-[auto] w-[100%] text-left'>
+        {m.id == 11 ? (
+                m.office.choir_master.map((cm, id) => 
+                  (
+                    <tr>
+                    <th>Choir Master {id+1} </th>
+                    <td>{cm.name}{`(${cm.contact})`}</td>
+                    </tr>
+                  )
+                )             
+        ): (
+        
+              <tr>
+                <th>{ m.office.chairman ? `Chairman`: m.office.choir_master? `Choir Master`: m.office.president? `President`: m.office.pro? `P.R.0`: m.office.secretary? `Secretary`: `please stay posted`}</th>
+  
+                <td>{m.office.chairman ? m.office.chairman: m.office.choir_master? m.office.choir_master: m.office.president? m.office.president: m.office.pro? m.office.pro: m.office.secretary?  m.office.secretary: `please stay posted`}  {`(${ m.office.chairman ? m.office.chairman_contact: m.office.president? m.office.president_contact: m.office.pro? m.office.pro_contact: m.office.secretary?  m.office.secretary_contact: `...`})`} </td>
+            </tr>
+            )}
         </tbody>
-      </table>          
+        </table>
+
+          
       </div>
 
         
@@ -85,14 +100,14 @@ const MinistryDes = () => {
                 `
                 tr{
                   // border: none !important;
-                  height: 40px;
+                  height: 50px;
                   width: 100%;
                   display: flex;
                   // background-color: yellow;
                 }
                 th {
                   height: 100%;
-                  width: 150px;
+                  width: 120px;
                   // background-color: yellow;
                   display: flex;
                   align-items: center;
@@ -103,11 +118,11 @@ const MinistryDes = () => {
                 }
                 td{
                   height: 100%;
-                  width: auto;
+                  width: 400px;
                   // background-color: teal;
                   display: flex;
                   align-items: center;
-                  justify-content: center;
+                  // justify-content: center;
                   font-family: Roboto, sans-serif;
                   font-size: 15px;
                   text-align: left;

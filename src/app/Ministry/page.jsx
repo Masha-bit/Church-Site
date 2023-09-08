@@ -23,8 +23,8 @@ export default function page() {
   const catholic_cream = '#f5eee4';
 
   return (
-    <main className="h-[auto] w-[100vw] relative]">
+    <div className="h-[auto] w-[100vw] relative]">
       <MinistryDes/>
-    </main>
+    </div>
   );
 }

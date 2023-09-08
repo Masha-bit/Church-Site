@@ -12,7 +12,7 @@ export default function Footer() {
 
             <div className='h-[300px] w-[100%] flex items-center font-cinzel text-[36px] font-[500]'>
             <span className='h-[100%] w-[200px] flex items-center justify-center'>
-            <img src='/logo.png' width={200}/>
+            <img src='/immaculate mother.png' width={120}/>
             </span>
 
             Catholic Church of the Assumption
@@ -22,7 +22,7 @@ export default function Footer() {
 
             </aside>
 
-            <aside className='h-[100%] w-[400px] text-[12px] p-4 flex items-center justify-around'>
+            <aside className='h-[100%] w-[600px] text-[12px] p-4 flex items-center justify-around'>
 
                 <div className='h-[200px] w-[150px] flex flex-col text-left '>
                     
@@ -30,25 +30,26 @@ export default function Footer() {
                     
                     <span className='flex flex-col text-left'>
                     <p href="" target="_blank" className='my-2'>
-                    980 Park Avenue New York, NY 10028
+                    KM 38 Lekki-Epe Expressway, Ibeju-Lekki Lagos
+                    
                     </p>
                     <p href="" className='my-2'>
-                        212-288-3588
+                        +234 806 639 7225
                     </p>
 
                     <p href="" className='my-2'>
-                        church@hjcrttuvyk.org
+                        catholicchurchofassumption@gmail.com
                     </p>
                     
 
                     <div className='h-[50px] w-[100px] flex items-center justify-around '>
-                    <a href="https://www.facebook.com/catholicchurchofassumptionawoyaya" target="_blank" className='text-[black]'>
+                    <a href="https://www.facebook.com/profile.php?id=100075787488582" target="_blank" className='text-[black]'>
                             <BiLogoFacebook size={16}/>
                         </a>
-                        <a href="" className='text-[black]'>
+                        <a href="./" className='text-[black]'>
                             <BiLogoInstagram size={16}/>
                         </a>
-                        <a href="" className='text-[black]'>
+                        <a href="https://www.youtube.com/@LumenChristitv" className='text-[black]'>
                             <BiLogoYoutube size={16}/>
                         </a>
                     </div>
@@ -64,8 +65,8 @@ export default function Footer() {
                     <a href="#" className='my-2 text-[black] no-underline'>
                     HOME
                     </a>
-                    <a href="" className='my-2 text-[black] no-underline'>
-                    MINISTRIES
+                    <a href="/Ministry" className='my-2 text-[black] no-underline'>
+                    LAITY
                     </a>
                     <a href="" className='my-2 text-[black] no-underline'>
                     SACRAMENTS

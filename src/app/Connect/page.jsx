@@ -25,9 +25,9 @@ export default function page() {
 
       {/* <ScrollToTop/> */}
 
-    <section className='h-[70px] w-[100vw]'>
+    {/* <section className='h-[70px] w-[100vw]'>
       <Nav delay={450}/>
-    </section>
+    </section> */}
 
     <Header title={"CONNECT"} image={'/subscribe-bg-scaled.jpg'}/>
 
@@ -49,7 +49,7 @@ export default function page() {
                 <table className='w-[400px] '>
                     <tbody className='text-left'>
                         <tr><LiaMapMarkedAltSolid style={{color: "#825835"}} size={20}/></tr>
-                        <tr>980 Park Avenue New York, NY 10028</tr>
+                        <tr>KM 38 Lekki-Epe Expressway, Ibeju-Lekki Lagos</tr>
                     </tbody>
                 </table>
             </aside>
@@ -59,11 +59,11 @@ export default function page() {
                     <tbody className='text-left'>
                         <tr>
                             <td className='w-[35px]'><BiPhoneCall style={{color: "#825835"}} size={20}/></td>
-                            <td>705 890 7755</td>
+                            <td>+234 806 639 7225</td>
                         </tr>
                         <tr>
                             <td className='w-[35px]'><FiMail style={{color: "#825835"}} size={20}/></td>
-                            <td>catholicoa@gmail.com</td>
+                            <td>catholicchurchofassumption@gmail.com</td>
                         </tr>
                     </tbody>
                 </table>
@@ -80,13 +80,13 @@ export default function page() {
             <tbody className='w-[300px]'>
                 <tr>
                 <div className='h-[50px] w-[300px] flex items-center justify-around text-left '>
-                    <a href="https://www.facebook.com/catholicchurchofassumptionawoyaya" target="_blank">
+                    <a href="https://www.facebook.com/profile.php?id=100075787488582" className='text-[black]' target="_blank">
                             <BiLogoFacebook size={26}/>
                         </a>
-                        <a href="">
+                        <a href="./" className='text-[black]'>
                             <BiLogoInstagram size={26}/>
                         </a>
-                        <a href="">
+                        <a href="https://www.youtube.com/@LumenChristitv" className='text-[black]'>
                             <BiLogoYoutube size={26}/>
                         </a>
                     </div>
@@ -98,7 +98,7 @@ export default function page() {
         </aside>
     </section>
 
-    <section className='h-[auto] w-[100vw] flex items-center justify-center'>
+    {/* <section className='h-[auto] w-[100vw] flex items-center justify-center'>
     <Contact title={`VISIT!`} subtitle={`We hope that your visit among us will be physically and spiritually refreshing.`} messageplaceholder={`Hello bro and sis in Jesus Christ!`}/>
       
     </section>
@@ -106,18 +106,26 @@ export default function page() {
 
    
 
-    <section className='h-[auto] w-[100vw] flex items-center justify-center'>
+    <section className='h-[auto] w-[100vw] flex flex-col items-center justify-center'>
     <Footer/>
     <div className='h-[20px] w-[100vw] bg-[#000000] flex items-center justify-center font-roboto text-[11px] text-[white]'>
-      Copyrights © 2020 Catholic Church of the Assumption , All Right Reserved. | Design by 
-      <Link
-            href={`./`}
-            className="decoration-[none] border-dotted border-b-2 border-[#fafafa9a] hover:text-white hover:transition-all transition-all mx-1"
+      Copyrights © 2020 Catholic Church of the Assumption , All Right Reserved. | Design by
+        <Link
+            href={`https://www.linkedin.com/in/franc-enemuo/`}
+            className="decoration-[none] border-dotted border-b-2 border-[#fafafa9a] hover:text-white hover:transition-all transition-all mx-1 font-oswald"
+        >
+            Coderite.
+        </Link>       
+        &
+        <Link
+            href={`https://www.linkedin.com/in/christopher-masha-68377924a/`}
+            className="decoration-[none] border-dotted border-b-2 border-[#fafafa9a] hover:text-white hover:transition-all transition-all mx-1 font-oswald"
           >
             Masha.
           </Link>
+
     </div>
-    </section>
+    </section> */}
     </main>   
   )
 }
