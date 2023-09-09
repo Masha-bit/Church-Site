@@ -83,7 +83,7 @@ export default function Nav(props) {
                     <p className={`${isActive == "ministry" ? "open":"close"}`} onClick={() => handleLinkActive("ministry")}>LAITY</p>
                 </Link>
 
-                <Link href="" className='text-[black] no-underline'>
+                <Link href="/Sacrament" className='text-[black] no-underline'>
                     <p className={`${isActive == "sacrament" ? "open":"close"}`} onClick={() => handleLinkActive("sacrament")}>SACRAMENTS</p>
                 </Link>
 

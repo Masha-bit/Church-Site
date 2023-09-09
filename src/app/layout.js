@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
   </Link>       
   &
   <Link
-        href={`./`}
+        href={`https://www.linkedin.com/in/christopher-masha-68377924a/`}
         className="decoration-[none] border-dotted border-b-2 border-[#fafafa9a] hover:text-white hover:transition-all transition-all mx-1 no-underline font-oswald text-[white]"
       >
         Masha.

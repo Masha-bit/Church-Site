@@ -22,13 +22,6 @@ export default function page() {
 
   return (
     <main className='h-[auto] relative'>
-
-      {/* <ScrollToTop/> */}
-
-    {/* <section className='h-[70px] w-[100vw]'>
-      <Nav delay={450}/>
-    </section> */}
-
     <Header title={"CONNECT"} image={'/subscribe-bg-scaled.jpg'}/>
 
     <section className='h-[700px] w-[100vw] bg-[white] flex flex-col items-center justify-center font-cinzel relative'>
