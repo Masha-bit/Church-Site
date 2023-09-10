@@ -68,10 +68,10 @@ export default function Footer() {
                     <a href="/Ministry" className='my-2 text-[black] no-underline'>
                     LAITY
                     </a>
-                    <a href="" className='my-2 text-[black] no-underline'>
+                    <a href="/Sacrament" className='my-2 text-[black] no-underline'>
                     SACRAMENTS
                     </a>
-                    <a href="" className='my-2 text-[black] no-underline'>
+                    <a href="/Donation" className='my-2 text-[black] no-underline'>
                     DONATIONS
                     </a>
                     </span>

@@ -34,14 +34,20 @@ export default function Home() {
   </div>
 </section>
 
+<section className='h-[600px] w-[100vw] flex items-center justify-center'>
+  <MissionStatement/>
+</section>
 
 <section className='mt-[5rem]'>
 <MassSchedule/>
 </section>
 
-<section className='h-[600px] w-[100vw] flex items-center justify-center'>
-  <MissionStatement/>
+<section className='h-[500px] w-[100vw] flex items-center'>
+  <aside></aside>
+  <aside></aside>
 </section>
+
+
 
 </div>
   )

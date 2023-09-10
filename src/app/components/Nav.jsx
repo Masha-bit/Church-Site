@@ -87,11 +87,11 @@ export default function Nav(props) {
                     <p className={`${isActive == "sacrament" ? "open":"close"}`} onClick={() => handleLinkActive("sacrament")}>SACRAMENTS</p>
                 </Link>
 
-                <Link href="" className='text-[black] no-underline'>
+                <Link href="/Donation" className='text-[black] no-underline'>
                     <p className={`${isActive == "media" ? 'open':'close'}`} onClick={() => handleLinkActive("media")}>MEDIA</p>
                 </Link>
 
-                <a href="" className='hover:transition-all hover:text-[black] no-underline'>
+                <a href="/Donation" className='hover:transition-all hover:text-[black] no-underline'>
                     <div className='h-[40px] w-[120px] bg-[#b4884a62] transition-all hover:transition-all hover:bg-[#86673ba7] hover:text-[white] flex items-center justify-center text-[black]'>DONATE TODAY</div>
                 </a>
             </div>
