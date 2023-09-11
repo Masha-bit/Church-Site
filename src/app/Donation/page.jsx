@@ -1,17 +1,7 @@
-"use client"
-import Image from 'next/image'
-import { useEffect, useState } from 'react'
-import Link from 'next/link'
 import React from 'react'
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
-import Contact from '../components/Contact'
 import Header from '../components/Header'
-import {LiaMapMarkedAltSolid} from 'react-icons/lia'
-import {BiPhoneCall} from 'react-icons/bi'
-import {FiMail} from 'react-icons/fi'
-import {BiLogoFacebook, BiLogoInstagram, BiLogoYoutube} from "react-icons/bi"
-import ScrollToTop from '../components/ScrollToTop'
+"react-icons/bi"
+
 
 
 export default function page() {

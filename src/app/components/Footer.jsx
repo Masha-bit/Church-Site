@@ -65,7 +65,10 @@ export default function Footer() {
                     <a href="#" className='my-2 text-[black] no-underline'>
                     HOME
                     </a>
-                    <a href="/Ministry" className='my-2 text-[black] no-underline'>
+                    <a href="/Announcement" className='my-2 text-[black] no-underline'>
+                    ANNOUNCEMENTS
+                    </a>
+                    <a href="/Laity" className='my-2 text-[black] no-underline'>
                     LAITY
                     </a>
                     <a href="/Sacrament" className='my-2 text-[black] no-underline'>

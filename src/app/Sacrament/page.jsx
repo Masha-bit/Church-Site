@@ -2,11 +2,8 @@ import React from 'react'
 import Header from '../components/Header'
 import sacramentDescription from '@/app/components/sacrament'
 import Image from 'next/image'
-import ministryDescription from '../components/ministry'
 
-
-
-export default function page() {
+export default function page(){
   console.log(sacramentDescription.sacrament.map((e) => {e.url}))
   return (
 <main className='h-[auto] relative'>
