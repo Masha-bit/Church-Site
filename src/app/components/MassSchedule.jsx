@@ -3,25 +3,21 @@ import React from 'react'
 export default function MassSchedule() {
   return (
     <main className='h-[960px] w-[100vw] relative flex items-center justify-center'>
-    <section className='h-[90%] w-[100vw] bg-[#566e83] bg-blend-overlay bg-cover bg-no-repeat'
+    <section className='h-[90%] w-[100vw] bg-[#6e709a] bg-blend-overlay bg-cover bg-no-repeat'
     style={{
-        backgroundImage: `url("/st-ignatius-nyc_holy-thursday-scaled.jpg")`
+        backgroundImage: `url("/ola (2).jpg")`
     }}>
-
+{/* bg-blend-overlay */}
     </section>
-    <span className='h-[100%] w-[450px] bg-[#2e5577] absolute left-10 rounded-tr-[2rem] rounded-bl-[2rem] flex flex-col items-start p-[2rem] '>
+    <span className='h-[100%] w-[450px] bg-[#4d619e] absolute left-10 rounded-tr-[2rem] rounded-bl-[2rem] flex flex-col items-start p-[2rem] '>
 
         <div className='font-cinzel text-[37px] mt-[6rem] mb-[2rem] text-[#FFF7ED] underline underline-offset-4'>Mass Schedule</div>
 
-        <p className='h-[150px] w-[200px]'> 
-            <h4 className='text-[20px] underline underline-[#FFF7ED] text-[#FFF7ED] font-cinzel'>MONDAY-FRIDAY</h4>
+        <p className='h-[auto] w-[auto]'> 
+            <h4 className='text-[20px] underline underline-[#FFF7ED] text-[#FFF7ED] font-cinzel m-0'>MONDAY-WEDNESDAY-FRIDAY</h4>
 
-            <table className='h-[80px] w-[100%] text-left text-[17px] text-[white]'>
+            <table className='h-[80px] w-[200px] text-left text-[17px] text-[white]'>
                 <tbody className=' w-[100%]'>
-                    <tr>
-                        <th> 8:00 AM </th>
-                        <td> Church</td>
-                    </tr>
                     <tr>
                         <th> 6:30 PM </th>
                         <td> Church </td>
@@ -30,20 +26,16 @@ export default function MassSchedule() {
             </table>
         </p>
 
-        <p className='h-[150px] w-[200px]'>
-            <h4 className='text-[20px] underline underline-[#FFF7ED] text-[#FFF7ED] font-cinzel'>SATURDAY</h4>
+        <p className='h-[auto] w-[auto]'>
+            <h4 className='text-[20px] underline underline-[#FFF7ED] text-[#FFF7ED] font-cinzel m-0'>TUESDAY-THURSDAY</h4>
 
-            <table className='h-[80px] w-[100%] text-left text-[17px] text-[white]'>
+            <table className='h-[80px] w-[200px] text-left text-[17px] text-[white]'>
                 <tbody className=' w-[100%]'>
                     <tr>
-                        <th> 8:00 AM </th>
+                        <th> 6:30 AM </th>
                         <td> Church 
                             <span></span>
                         </td>
-                    </tr>
-                    <tr>
-                        <th> 6:30 PM </th>
-                        <td> Church </td>
                     </tr>
                 </tbody>
             </table>
@@ -55,23 +47,19 @@ export default function MassSchedule() {
             <table className='h-[auto] w-[100%] text-left text-[17px] text-[white]'>
                 <tbody className=' w-[100%]'>
                     <tr>
-                        <th> 7:20 AM </th>
+                        <th> 6:30 AM </th>
                         <td> Church 
                         </td>
                     </tr>
                     <tr>
-                        <th> 9:40 AM </th>
+                        <th> 8:30 AM </th>
                         <td> Church 
                         </td>
                     </tr>
                     <tr>
-                        <th> 11:00 AM </th>
+                        <th> 10:30 AM </th>
                         <td> Church thanksgiving 
                         </td>
-                    </tr>
-                    <tr>
-                        <th> 6:30 PM </th>
-                        <td> Church </td>
                     </tr>
                 </tbody>
             </table>
@@ -79,12 +67,12 @@ export default function MassSchedule() {
 
         <div className='font-cinzel text-[37px] mt-[2rem] text-[#FFF7ED] underline underline-offset-4'>RECONCILATION</div>
 
-        <p className='h-[150px] w-[200px]'> 
+        <p className='h-[150px] w-[400px]'> 
             <table className='h-[80px] w-[100%] text-left text-[17px] text-[white]'>
                 <tbody className=' w-[100%]'>
                     <tr>
-                        <th> SATURDAYS</th>
-                        <td>  4:30 PM </td>
+                        <th className=''> SATURDAYS</th>
+                        <td> After Morning Mass on Saturdays</td>
                     </tr>
                 </tbody>
             </table>

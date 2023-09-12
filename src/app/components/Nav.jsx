@@ -68,9 +68,9 @@ export default function Nav(props) {
         </p>
       </aside>
 
-      <aside className="h-[100%] w-[10%] flex items-center justify-center ">
+      <a href='/#' className="h-[100%] w-[10%] flex items-center justify-center ">
         <img src="/immaculate mother.png" width={35} />
-      </aside>
+      </a>
 
       <aside className="h-[100%] w-[45%] flex items-center justify-center text-[12px]">
         <div className="w-[90%] flex items-center justify-around text-[black] no-underline">
@@ -116,7 +116,7 @@ export default function Nav(props) {
             </p>
           </Link>
 
-          <Link href="/Donation" className="text-[black] no-underline">
+          <Link href="/Media" className="text-[black] no-underline">
             <p
               className={`${isActive == 'media' ? 'open' : 'close'}`}
               onClick={() => handleLinkActive('media')}
@@ -129,7 +129,7 @@ export default function Nav(props) {
             href="/Donation"
             className="hover:transition-all hover:text-[black] no-underline"
           >
-            <div className="h-[40px] w-[120px] bg-[#b4884a62] transition-all hover:transition-all hover:bg-[#86673ba7] hover:text-[white] flex items-center justify-center text-[black]">
+            <div className="h-[40px] w-[120px] bg-[#fce97a62] transition-all hover:transition-all hover:bg-[#86673ba7] hover:text-[white] flex items-center justify-center text-[black]">
               DONATE TODAY
             </div>
           </a>

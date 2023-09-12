@@ -14,6 +14,7 @@ export default function Home() {
         
   return (
 <div>
+<link rel="icon" href="/favicon.io"/>
       
 <section className='h-[600px] w-[100vw] flex items-center justify-center overflow-hidden relative'>
   <SwiperComp/>

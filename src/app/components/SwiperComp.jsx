@@ -44,6 +44,12 @@ export default function SwiperComp() {
         <SwiperSlide>
           <img src='/church_img/cimg (4).jpeg'/>
         </SwiperSlide>
+        <SwiperSlide>
+          <img src='/church_img/cimg (5).jpeg'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='/church_img/cimg (6).jpeg'/>
+        </SwiperSlide>
         {/* <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide>

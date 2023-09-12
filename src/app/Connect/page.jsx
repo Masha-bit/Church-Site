@@ -67,7 +67,7 @@ export default function page() {
         <span className='h-[0.5px] w-[500px] bg-[black] mx-5 block'></span>
 
         <table className='mt-16 p-2'>
-            <thead className='text-[#825835] text-[25px]'>
+            <thead className='text-[#ebda6c] text-[25px]'>
                 Follow Us On!
             </thead>
             <tbody className='w-[300px]'>

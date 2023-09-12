@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
   {children}
 <section className='h-[auto]'>
 <Footer/>
-<div className='h-[20px] w-[100vw] bg-[#000000] flex items-center justify-center font-roboto text-[11px] text-[white]'>
+<div className='h-[20px] w-[100vw] bg-[#4d619e] flex items-center justify-center font-roboto text-[11px] text-[white]'>
   Copyrights © {year} Catholic Church of the Assumption , All Right Reserved. | Design by 
   <Link
       href={`https://www.linkedin.com/in/franc-enemuo/`}

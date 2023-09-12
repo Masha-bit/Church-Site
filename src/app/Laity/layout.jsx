@@ -26,7 +26,7 @@ export default function MinistryLayout({ children }) {
 
         <div className='h-[200px] w-[80vw] text-[30px] text-[#000000] text-center flex items-center justify-center relative'>
             <span className='h-[1px] w-[50px] bg-[#f1d1b7] mx-5'></span>The participation of the People of God in “the work of God.”<span className='h-[1px] w-[50px] bg-[#f1d1b7] mx-5'></span>
-            <p className='w-[100%] h-[auto] block text-center font-oswald text-[12px] text-[#825835] absolute bottom-0 left-0'>
+            <p className='w-[100%] h-[auto] block text-center font-oswald text-[16px] text-[#825835] absolute bottom-0 left-0'>
             “Love is shown more in deeds than in words.” | St. Ignatius of Loyola</p>
         </div>
 
