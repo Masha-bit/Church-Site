@@ -8,9 +8,9 @@ export default function Footer() {
 
         <div className='h-[280px] sm:h-[auto] sm:w-[100vw] text-[14px] flex sm:flex-col '>
 
-            <aside className='h-[300px] w-[700px] sm:w-[100%] sm:px-2 text-[16px]'>
+            <aside className='h-[280px] w-[700px] sm:w-[100%] text-[16px]'>
 
-            <div className='h-[250px] sm:w-[100vw] flex items-center sm:justify-center font-cinzel text-[36px] font-[500]'>
+            <div className='h-[250px] flex items-center sm:justify-center font-cinzel text-[36px] sm:text-[30px] font-[500]'>
             <span className='h-[100%] w-[200px] flex items-center justify-center sm:hidden'>
             <img src='/immaculate mother.png' width={120}/>
             </span>

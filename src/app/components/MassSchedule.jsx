@@ -72,7 +72,7 @@ export default function MassSchedule() {
                 <tbody className=' w-[100%]'>
                     <tr>
                         <th className=''> SATURDAYS</th>
-                        <td> After Morning Mass on Saturdays</td>
+                        <td className='p-0'> After Morning Mass on Saturdays</td>
                     </tr>
                 </tbody>
             </table>

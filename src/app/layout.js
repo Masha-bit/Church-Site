@@ -32,9 +32,9 @@ export default function RootLayout({ children }) {
       
   return (
 <html lang="en">
-<link rel="icon" href="/immaculate mother.png"/>
-<body >
-<main className='h-[auto] relative'>
+<link rel="icon" href="/immaculate mother.png "/>
+<body>
+<main className='relative'>
 
 <a href='#' className={ isScrolled ? `transition-all duration-[350ms] h-[50px] w-[50px] rounded-full bg-[#b4884a62] text-[white] fixed bottom-10 right-10 z-20 flex items-center  justify-center`: `transition-all duration-[350ms] -z-10`}>
   <SlArrowUp style={{}} size={11}/>
@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
   {children}
 <section className='h-[auto]'>
 <Footer/>
-<p className='h-[20px] sm:h-[40px] w-[100vw] bg-[#4d619e] flex items-center justify-center font-roboto text-[11px] text-[white]'>
+<p className='h-[20px] sm:h-[40px] w-[100vw] bg-[#4d619e] inline-block items-center  font-roboto text-[11px] text-[white] text-center'>
   Copyrights © {year} Catholic Church of the Assumption , All Right Reserved. | Design by 
   <a
       href={`https://www.linkedin.com/in/franc-enemuo/`}

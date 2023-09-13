@@ -18,14 +18,14 @@
   }
 }
 html{
-  width: 100vw;
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
 }
 
 body {
-  width: 90vw;
+  height: 100%;
+  width: 100vw;
   overflow-x: hidden;
   background-color: #fff3ae62;
   padding: 0;
