@@ -3,18 +3,17 @@ import {BiLogoFacebook, BiLogoInstagram, BiLogoYoutube} from "react-icons/bi"
 
 export default function Footer() {
   return (
-    <div className='h-[300px] w-[100vw] text-[#000000] flex flex-col items-center justify-center'>
-        <span className='h-[0.5px] w-[80vw] bg-[#000000]'></span>
+    <div className='h-[300px] sm:h-[auto] w-[100vw] text-[#000000] flex flex-col items-center justify-center'>
+        <span className='h-[0.5px] w-[80vw] sm:w-[90%] bg-[#000000]'></span>
 
-        <div className='h-[90%] text-[14px] flex '>
+        <div className='h-[280px] sm:h-[auto] sm:w-[100vw] text-[14px] flex sm:flex-col '>
 
-            <aside className='h-[100%] w-[700px] text-[12px]'>
+            <aside className='h-[300px] w-[700px] sm:w-[100%] sm:px-2 text-[16px]'>
 
-            <div className='h-[300px] w-[100%] flex items-center font-cinzel text-[36px] font-[500]'>
-            <span className='h-[100%] w-[200px] flex items-center justify-center'>
+            <div className='h-[250px] sm:w-[100vw] flex items-center sm:justify-center font-cinzel text-[36px] font-[500]'>
+            <span className='h-[100%] w-[200px] flex items-center justify-center sm:hidden'>
             <img src='/immaculate mother.png' width={120}/>
             </span>
-
             Catholic Church of the Assumption
             <br />
             Awoyaya
@@ -22,9 +21,9 @@ export default function Footer() {
 
             </aside>
 
-            <aside className='h-[100%] w-[600px] text-[12px] p-4 flex items-center justify-around'>
+            <aside className='h-[100%] sm:h-[auto] w-[600px] sm:w-[100vw] text-[12px] p-2 sm:p-0 flex sm:flex-col items-center justify-around'>
 
-                <div className='h-[200px] w-[150px] flex flex-col text-left '>
+                <div className='h-[200px] w-[150px] sm:w-[90%] flex flex-col text-left '>
                     
                     <h1 className='font-cinzel text-[20px] my-2 underline'>CONNECT</h1>
                     
@@ -57,7 +56,7 @@ export default function Footer() {
 
                 </div>
 
-                <div className='h-[200px] w-[150px] flex flex-col text-left relative'>
+                <div className='h-[200px] w-[150px] sm:w-[90%] flex flex-col text-left relative'>
                     
                     <h1 className='font-cinzel text-[20px] my-2 underline '>QUICK LINKS</h1>
                     

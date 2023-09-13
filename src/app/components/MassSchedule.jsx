@@ -3,17 +3,17 @@ import React from 'react'
 export default function MassSchedule() {
   return (
     <main className='h-[960px] w-[100vw] relative flex items-center justify-center'>
-    <section className='h-[90%] w-[100vw] bg-[#6e709a] bg-blend-overlay bg-cover bg-no-repeat'
+    <section className='h-[90%] w-[100vw] bg-[#6e709a] bg-blend-overlay bg-cover bg-no-repeat sm:hidden'
     style={{
         backgroundImage: `url("/ola (2).jpg")`
     }}>
 {/* bg-blend-overlay */}
     </section>
-    <span className='h-[100%] w-[450px] bg-[#4d619e] absolute left-10 rounded-tr-[2rem] rounded-bl-[2rem] flex flex-col items-start p-[2rem] '>
+    <span className='h-[100%] w-[450px] sm:w-[100vw] sm:relative sm:left-[0] sm:p-0 sm:pb-[2rem] bg-[#4d619e] absolute left-10 rounded-tr-[2rem] rounded-bl-[2rem] flex flex-col items-start p-[2rem] '>
 
-        <div className='font-cinzel text-[37px] mt-[6rem] mb-[2rem] text-[#FFF7ED] underline underline-offset-4'>Mass Schedule</div>
+        <div className='font-cinzel text-[37px] mt-[6rem] mb-[2rem] text-[#FFF7ED] underline underline-offset-4 p-4'>Mass Schedule</div>
 
-        <p className='h-[auto] w-[auto]'> 
+        <p className='h-[auto] w-[auto] p-4'> 
             <h4 className='text-[20px] underline underline-[#FFF7ED] text-[#FFF7ED] font-cinzel m-0'>MONDAY-WEDNESDAY-FRIDAY</h4>
 
             <table className='h-[80px] w-[200px] text-left text-[17px] text-[white]'>
@@ -26,7 +26,7 @@ export default function MassSchedule() {
             </table>
         </p>
 
-        <p className='h-[auto] w-[auto]'>
+        <p className='h-[auto] w-[auto] p-4'>
             <h4 className='text-[20px] underline underline-[#FFF7ED] text-[#FFF7ED] font-cinzel m-0'>TUESDAY-THURSDAY</h4>
 
             <table className='h-[80px] w-[200px] text-left text-[17px] text-[white]'>
@@ -41,7 +41,7 @@ export default function MassSchedule() {
             </table>
         </p>
 
-        <p className='h-[auto] w-[350px]'>
+        <p className='h-[auto] w-[350px] p-4'>
             <h4 className='text-[20px] underline underline-[#FFF7ED] text-[#FFF7ED] font-cinzel'>SUNDAY</h4>
 
             <table className='h-[auto] w-[100%] text-left text-[17px] text-[white]'>
@@ -65,9 +65,9 @@ export default function MassSchedule() {
             </table>
         </p>      
 
-        <div className='font-cinzel text-[37px] mt-[2rem] text-[#FFF7ED] underline underline-offset-4'>RECONCILATION</div>
+        <div className='font-cinzel text-[37px] mt-[2rem] text-[#FFF7ED] underline underline-offset-4 p-4'>RECONCILATION</div>
 
-        <p className='h-[150px] w-[400px]'> 
+        <p className='h-[150px] w-[400px] py-0 p-4'> 
             <table className='h-[80px] w-[100%] text-left text-[17px] text-[white]'>
                 <tbody className=' w-[100%]'>
                     <tr>

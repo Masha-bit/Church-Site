@@ -22,7 +22,7 @@ export default function Home() {
 
   </div>
 
-  <div className='h-[200px] w-[100vw] absolute left-0 z-10'>
+  <div className='sm:hidden h-[200px] w-[100vw] absolute left-0 z-10'>
     <p className='text-[60px] text-[#000000] font-cinzel font-extrabold flex flex-col items-center justify-center'>
     <span className='text-[14px] text-[#000000] font-oswald'>WELCOME TO!</span>
 

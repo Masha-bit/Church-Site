@@ -45,22 +45,22 @@ export default function RootLayout({ children }) {
   {children}
 <section className='h-[auto]'>
 <Footer/>
-<div className='h-[20px] w-[100vw] bg-[#4d619e] flex items-center justify-center font-roboto text-[11px] text-[white]'>
+<p className='h-[20px] sm:h-[40px] w-[100vw] bg-[#4d619e] flex items-center justify-center font-roboto text-[11px] text-[white]'>
   Copyrights © {year} Catholic Church of the Assumption , All Right Reserved. | Design by 
-  <Link
+  <a
       href={`https://www.linkedin.com/in/franc-enemuo/`}
-      className="decoration-[none] border-dotted border-b-2 border-[#fafafa9a] hover:text-white hover:transition-all transition-all mx-1 font-oswald"
+      className="decoration-[none] border-dotted border-b-2 border-[#fafafa9a] hover:text-white hover:transition-all transition-all mx-1 font-oswald inline"
   >
       Coderite.
-  </Link>       
+  </a>       
   &
-  <Link
+  <a
         href={`https://www.linkedin.com/in/christopher-masha-68377924a/`}
-        className="decoration-[none] border-dotted border-b-2 border-[#fafafa9a] hover:text-white hover:transition-all transition-all mx-1 no-underline font-oswald text-[white]"
+        className="decoration-[none] border-dotted border-b-2 border-[#fafafa9a] hover:text-white hover:transition-all transition-all mx-1 no-underline font-oswald text-[white] inline"
       >
         Masha.
-      </Link>
-</div>
+      </a>
+</p>
 </section>
 
 
