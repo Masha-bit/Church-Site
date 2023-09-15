@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
 </section>
 <section className='h-[auto] w-[100vw] overflow-x-hidden'>
 <Footer/>
-<p className='h-[20px] sm:h-[50px] w-[100vw] bg-[#4d619e] inline-block items-center  font-roboto text-[11px] text-[white] text-center'>
+<p className='h-[20px] sm:h-[30px] w-[100vw] bg-[#4d619e] inline-block items-center  font-roboto text-[11px] text-[white] text-center sm:p-4'>
   Copyrights © {year} Catholic Church of the Assumption , All Right Reserved. | Design by 
   <a
       href={`https://www.linkedin.com/in/franc-enemuo/`}
