@@ -177,7 +177,7 @@ export default function Nav(props) {
       </aside>
 
       <aside className='hidden sm:flex flex-col items-center justify-center h-[auto] w-[100vw] bg-[#f6eee3a6]'>
-        <span className='h-[40px] w-[50px] bg-[#f0d485] rounded-md flex items-center justify-center py-2'> 
+        <span className='h-[40px] w-[50px] bg-[#ffd79e] rounded-md flex items-center justify-center py-2'> 
           <HiOutlineBars3BottomLeft size={30}/>
         </span>
         <div className='hidden h-[auto] w-[100vw] flex flex-col items-center '>

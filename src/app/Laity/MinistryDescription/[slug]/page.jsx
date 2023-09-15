@@ -29,20 +29,20 @@ const MinistryDes = () => {
     {`${m.name}` +  `${m.abbrv !== null ? m.abbrv? `( ${m.abbrv} )`:null: ''}`}
     </p>
 
-    <div className='h-[600px] w-[100vw] flex items-center justify-center font-garamond '>
-      <aside className='h-[100%] w-[65%] flex justify-center text-[15px] leading-8 font-roboto'>
-        <p className='w-[800px]'>
+    <div className='h-[600px] sm:h-[auto] w-[100vw] flex sm:flex-col items-center justify-center font-garamond '>
+      <aside className='h-[100%] sm:h-[auto] w-[65%] sm:w-[80%] flex justify-center text-[15px] leading-8 font-roboto'>
+        <p className='w-[800px] sm:w-[100%]'>
         {m.description}
         </p>
       </aside>
 
-      <aside className='h-[100%] w-[35%] flex flex-col items-center text-[13px]'>
+      <aside className='h-[100%] sm:h-[auto] w-[35%] sm:w-[80%] flex flex-col items-center text-[13px]'>
 
-          <div className='h-[200px] w-[100%]'>
-          <p className='h-[auto] w-[100%] font-oswald text-[14px] text-[#ddc78f] text-center'>DATES</p>
+          <div className='h-[200px] sm:h-[auto] w-[100%] flex flex-wrap relative'>
+          <p className='h-[auto] w-[100%] font-oswald text-[14px] text-[#ddc78f] text-center sm:my-4'>DATES</p>
 
-          <table className='h-[auto] w-[100%]'>
-            <tbody className='h-[auto] w-[100%]'>
+          <table className='h-[auto] w-[100%] relative '>
+            <tbody className='h-[100%] w-[10%]'>
               <tr>
                 <th>Days</th>
                 <td> {m.meeting_date? m.meeting_date : `to be announced later`} </td>
@@ -62,7 +62,7 @@ const MinistryDes = () => {
 
         
         <div className='h-[200px] w-[100%]'>
-        <p className='h-[auto] w-[100%] font-oswald text-[14px] text-[#ddc78f] text-center'>CONTACTS</p>
+        <p className='h-[auto] w-[100%] font-oswald text-[14px] text-[#ddc78f] text-center sm:mb-4'>CONTACTS</p>
 
 
         <table className='h-[auto] w-[100%]'>
@@ -103,11 +103,11 @@ const MinistryDes = () => {
                   height: 50px;
                   width: 100%;
                   display: flex;
-                  // background-color: yellow;
+                  // background-color: orange;
                 }
                 th {
                   height: 100%;
-                  width: 120px;
+                  // width: 120px;
                   // background-color: yellow;
                   display: flex;
                   align-items: center;
@@ -118,7 +118,7 @@ const MinistryDes = () => {
                 }
                 td{
                   height: 100%;
-                  width: 400px;
+                  // width: 400px;
                   // background-color: teal;
                   display: flex;
                   align-items: center;
@@ -127,6 +127,17 @@ const MinistryDes = () => {
                   font-size: 15px;
                   text-align: left;
                   text-transform: capitalize;
+                }
+
+                @media screen and (max-width: 639px ) {
+                  tr{
+                    height:auto;
+                  }
+                  th, td{
+                    height: auto;
+                    width: 50%;
+                    padding:2px;
+                  }
                 }
                 `
               }

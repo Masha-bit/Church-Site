@@ -29,7 +29,7 @@ export default function page() {
 
         <aside className='h-[80%] w-[auto]'>
 
-        <div className='h-[200px] w-[80vw] text-[30px] text-[#000000] text-center flex items-center justify-center p-2 relative'>
+        <div className='h-[200px] w-[80vw] text-[30px] sm:text-[20px] text-[#000000] text-center flex items-center justify-center p-2 relative'>
           <span className='h-[1px] w-[50px] bg-[#f1d1b7] mx-5'></span>
             Our love of Christ impels us to welcome all; to worship joyfully and pray fervently; to walk together with those in need, and to reverence God in the wonder of creation.
             <span className='h-[1px] w-[50px] bg-[#f1d1b7] mx-5'></span>

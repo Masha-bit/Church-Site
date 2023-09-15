@@ -10,7 +10,7 @@ export default function Footer() {
 
             <aside className='h-[280px] w-[700px] sm:w-[100%] text-[16px]'>
 
-            <div className='h-[250px] flex items-center sm:justify-center font-cinzel text-[36px] sm:text-[30px] font-[500]'>
+            <div className='h-[250px] sm:p-2 flex items-center sm:justify-center font-cinzel text-[36px] sm:text-[30px] font-[500]'>
             <span className='h-[100%] w-[200px] flex items-center justify-center sm:hidden'>
             <img src='/immaculate mother.png' width={120}/>
             </span>
@@ -61,7 +61,7 @@ export default function Footer() {
                     <h1 className='font-cinzel text-[20px] my-2 underline '>QUICK LINKS</h1>
                     
                     <span className='flex flex-col text-left font-cinzel'>
-                    <a href="#" className='my-2 text-[black] no-underline'>
+                    <a href="/" className='my-2 text-[black] no-underline'>
                     HOME
                     </a>
                     <a href="/Announcement" className='my-2 text-[black] no-underline'>
