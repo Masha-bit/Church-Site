@@ -14,7 +14,7 @@ const MinistryDes = () => {
 
   if (!m) {
     return (
-    <div className='h-[300px] w-[100vw] flex items-center justify-center'>
+    <div className='h-[300px] sm:h-[auto] w-[100vw] flex items-center justify-center'>
     <p className='text-center w-[70%] leading-9 font-oswald'>
       
       At the Catholic Church of the Assumption   , we are especially mindful of our neighbors in need. Our 34 social and service ministries provide opportunities for our parishioners to practice their faith through community service, whether advocating for the environment, networking as young moms, or providing opportunities to speak out against unjust systems that undermine the dignity and value of our diversity as a nation. We also collaborate ecumenically and support social justice initiatives with other Christian and non-Christian faith communities across Manhattan.
