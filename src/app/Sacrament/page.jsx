@@ -30,7 +30,7 @@ export default function page(){
                       {/* <img src={s.url} alt={s.name} className='w-[100%] min-h-[100%] object-cover'/> */}
                     </div>
 
-                    <div className='h-[200px] w-[400px] p-2'>
+                    <div className='h-[200px] sm:h-[auto] w-[400px] sm:w-[90%] p-2'>
                         <p className='mt-0'>{s.name}</p>
                         <p className='font-roboto leading-6'>{s.description}</p>
                     </div>
