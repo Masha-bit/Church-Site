@@ -36,10 +36,10 @@ export default function page() {
             <p className='w-[100%] h-[auto] block text-center font-oswald text-[12px] text-[#825835] absolute bottom-0 left-0'> ST. IGNATIUS OF LOYOLA</p>
         </div>
 
-        <div className='h-[200px] sm:h-[auto] w-[800px] sm:w-[100%]  text-[20px] text-center font-roboto flex sm:flex-col flex-row items-center sm:p-4'>
+        <div className='h-[200px] sm:h-[auto] w-[800px] sm:w-[100%]  text-[20px] sm:text-[15px] text-center font-roboto flex sm:flex-col flex-row items-center sm:p-4'>
            
             <aside className='sm:my-4'>
-                <table className='w-[400px] '>
+                <table className='w-[400px] sm:w-[100%] '>
                     <tbody className='text-left'>
                         <tr><LiaMapMarkedAltSolid style={{color: "#825835"}} size={20}/></tr>
                         <tr>KM 38 Lekki-Epe Expressway, Ibeju-Lekki Lagos</tr>
@@ -67,7 +67,7 @@ export default function page() {
         <span className='h-[0.5px] w-[500px] bg-[black] mx-5 block'></span>
 
         <table className='mt-16 sm:mt-4 p-2'>
-            <thead className='text-[#ebda6c] text-[25px]'>
+            <thead className='text-[#ebda6c] text-[25px] sm:text-[20px]'>
                 Follow Us On!
             </thead>
             <tbody className='w-[300px]'>
