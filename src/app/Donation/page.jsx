@@ -31,7 +31,7 @@ export default function page() {
                 <img src='stlawrence-2.jpg' className='w-[450px]'/>
             </aside>
 
-            <aside className='h-[360px] sm:h-[auto] sm:w-[100%] w-[600px] text-left sm:p-4'>
+            <aside className='h-[360px] sm:h-[auto] sm:w-[100%] sm:flex sm:flex-col sm:items-center sm:justify-center w-[600px] text-left sm:p-4'>
             <p className='text-2xl text-[#7c583a]'>Make a Donation</p>
             <table>
                 <tbody className='text-sm'>

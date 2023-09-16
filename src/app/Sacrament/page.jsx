@@ -27,7 +27,6 @@ export default function page(){
             (  <aside className='h-[250px] sm:h-[auto]  w-[900px] sm:w-[100%] flex sm:flex-col items-center justify-around sm:my-8 '>
                     <div className='h-[200px] w-[400px] overflow-hidden bg-cover'>
                       <Image src={s.url} className='w-[100%] min-h-[100%] object-fill' />
-                      {/* <img src={s.url} alt={s.name} className='w-[100%] min-h-[100%] object-cover'/> */}
                     </div>
 
                     <div className='h-[200px] sm:h-[auto] w-[400px] sm:w-[90%] p-2'>

@@ -12,6 +12,7 @@ export default function Nav(props) {
 
   const handleLinkActive = (link) => {
     setActive(link);
+    setClicked(false);
   };
 
   const ref = useRef(null);
@@ -44,6 +45,38 @@ export default function Nav(props) {
     }
   };
   console.log(isScrolled);
+
+  const [clicked, setClicked] = useState(false)
+  const mobileRef = useRef(null)
+
+  const handleClickEvent = () => {
+    setClicked(!clicked)
+
+    
+    const element = mobileRef.current;
+    !clicked ?
+    // useEffect(() => {
+      gsap.fromTo( 
+        element, {
+          // opacity: 0,
+          yPercent: -100,
+          // ease: 'power2.inOut',
+        },{
+          duration: 0.3,
+          opacity: 1,
+          yPercent: 0,
+          // backgroundColor: "red",
+          // ease: 'power1.inOut',
+        })   
+    : gsap.to( 
+      element, {
+        yPercent: -100,
+        opacity: 0,
+        display:"hidden",
+        // ease: 'power2.inOut',
+      }) 
+
+  }
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -176,16 +209,15 @@ export default function Nav(props) {
 
       </aside>
 
-      <aside className='hidden sm:flex flex-col items-center justify-center h-[auto] w-[100vw] bg-[#f6eee3a6]'>
-        <span className='h-[40px] w-[50px] bg-[#ffd79e] rounded-md flex items-center justify-center py-2'> 
+      <aside className='hidden sm:flex flex-col items-center justify-center h-[auto] w-[100vw] bg-[#f6eee3a6] sm:py-2'>
+        <span className='h-[25px] w-[50px] bg-[#ffd79e] rounded-md flex items-center justify-center py-2' on onClick={handleClickEvent}> 
           <HiOutlineBars3BottomLeft size={30}/>
         </span>
-        <div className='hidden h-[auto] w-[100vw] flex flex-col items-center '>
+        
+        <div className={ clicked ? `h-[auto] w-[100vw] flex flex-col items-center ` : `hidden`} ref={mobileRef}>
         <Link href="/#" className="w-[100vw] flex items-center justify-center text-[black] no-underline transition-all hover:transition-all hover:bg-[#86673ba7]">
-            <p
-              className={`${isActive == 'home' ? 'open' : 'close'}`}
-              onClick={() => handleLinkActive('home')}
-            >
+            <p className={`${isActive == 'home' ? 'open' : 'close'}`}
+              onClick={() => handleLinkActive('home')}>
               HOME
             </p>
           </Link>
