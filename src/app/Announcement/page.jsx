@@ -18,7 +18,7 @@ export default function page() {
 
         <aside className='h-[80%] w-[100vw]'>
 
-        <div className='h-[200px] w-[80vw] sm:w-[100vw] text-[30px] sm:text-[20px] text-[#000000] text-center flex items-center justify-center relative'>
+        <div className='h-[200px] w-[100vw] sm:w-[100vw] text-[30px] sm:text-[20px] text-[#000000] text-center flex items-center justify-center relative'>
           <span className='h-[1px] w-[50px] bg-[#f1d1b7] mx-5 sm:hidden'></span>
             Let’s join together and work to assure a bright future for the parish.
             <span className='h-[1px] w-[50px] bg-[#f1d1b7] mx-5 sm:hidden'></span>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
+import Gallery from '../components/Gallery'
 "react-icons/bi"
 
 
@@ -12,13 +13,13 @@ export default function page() {
 
   return (
     <main className='h-[auto] relative'>
-    <Header title={"DONATIONS"} image={'/subscribe-bg-scaled.jpg'}/>
+    <Header title={"MEDIA GALLERY"} image={'/subscribe-bg-scaled.jpg'}/>
 
-    <section className='h-[700px] w-[100vw] bg-[white] flex flex-col items-center justify-center font-cinzel relative'>
-      <p className='w-[100vw] h-[auto] block text-center font-oswald text-[15px] text-[#825835] absolute top-0 left-0'> DONATE</p>
+    <section className='h-[auto] w-[100vw] bg-[white] flex flex-col items-center justify-center font-cinzel relative p-4'>
+      <p className='w-[100vw] h-[20%] block text-center font-oswald text-[15px] text-[#825835] absolute top-0 left-0'> MEDIA</p>
 
-        <aside className='h-[80%] w-[auto]'>
-        
+        <aside className='h-[80%] w-[100%] mt-8'>
+          <Gallery/>
         </aside>
 
 

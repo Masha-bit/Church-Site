@@ -32,7 +32,7 @@ export default function NestedNav(props) {
   return (
     <table className='m-0 p-0'>
     <tbody className='h-[50px] sm:h-[auto] w-[100vw] bg-[#f6eee3a6] flex flex-wrap items-center justify-center'>
-        <tr className='h-[auto] w-[auto] sm:w-[100%] sm:flex-col items-center justify-center'>
+        <tr className='h-[auto] w-[auto] sm:w-[100%] flex sm:flex-col items-center justify-center'>
             {ministry_group.map((e) => (
                 <div className='h-[50px] w-[200px] sm:w-[100%] relative'>
                 <td className='h-[100%] w-[200px] sm:w-[100%] text-[14px] text-[#43262b] text-center border-[0.05px] flex items-center justify-center transition-colors duration-[350ms] hover:transition-colors hover:duration-[350ms] hover:bg-[#ad91606c]  hover:border-0  hover:border-b-2 hover-border-[#43262b] hover:border-solid capitalize font-cinzel' onMouseOver={() => handle_hover(e)} onMouseLeave={() => handle_hover("")}>
