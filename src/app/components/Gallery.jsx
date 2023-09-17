@@ -6,6 +6,9 @@ export default function Gallery() {
         <div>
             <img src="/church_img/cimg (1).jpeg" alt="" />
         </div>
+        <div className='wide'>
+            <img src="/church_img/cimg (1).jpeg" alt="" />
+        </div>
         <div className='big'>
             <img src="/church_img/gi (1).jpeg" alt="" />
         </div>
@@ -31,6 +34,9 @@ export default function Gallery() {
             <img src="/church_img/gi (6).jpeg" alt="" />
         </div>
         <div className=''>
+            <img src="/church_img/gi (7).jpeg" alt="" />
+        </div>
+        <div className='wide'>
             <img src="/church_img/gi (7).jpeg" alt="" />
         </div>
         <div className='big'>
@@ -124,6 +130,10 @@ export default function Gallery() {
                     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
                     grid-auto-rows: 150px;
                     grid-uto-flow: dense;
+                }
+                .grid-wrapper .big{
+                    grid-row: span 3;
+                    grid-column: span 3;
                 }
             }
             `}
