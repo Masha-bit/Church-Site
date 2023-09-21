@@ -103,11 +103,11 @@ export default function Nav(props) {
       </aside>
 
       <a href='/#' className="h-[100%] w-[10%] flex items-center justify-center sm:hidden ">
-        <img src="/immaculate mother.png" width={35} />
+        <img src="/ccoa_logo.png" width={70} />
       </a>
 
       <aside className="h-[100%] w-[45%] flex items-center justify-center text-[12px] sm:hidden">
-        <div className="w-[90%] flex items-center justify-around text-[black] no-underline">
+        <div className="w-[100%] flex items-center justify-around text-[black] no-underline">
           <Link href="/#" className="text-[black] no-underline ">
             <p
               className={`${isActive == 'home' ? 'open' : 'close'}`}
@@ -152,10 +152,9 @@ export default function Nav(props) {
 
           <Link href="/Media" className="text-[black] no-underline">
             <p
-              className={`${isActive == 'media' ? 'open' : 'close'}`}
-              onClick={() => handleLinkActive('media')}
-            >
-              MEDIA
+              className={`${isActive == 'gallery' ? 'open' : 'close'}`}
+              onClick={() => handleLinkActive('gallery')}
+            >GALLERY
             </p>
           </Link>
 
@@ -194,7 +193,7 @@ export default function Nav(props) {
       <aside className='hidden sm:flex h-[120px] w-[100vw] items-center justify-around'>
 
       <a href='/#' className="h-[100%] w-[50px] flex items-center justify-center">
-        <img src="/immaculate mother.png" width={50} />
+        <img src="/ccoa_logo.png" width={90} />
       </a>
 
       <aside
@@ -257,10 +256,10 @@ export default function Nav(props) {
 
           <Link href="/Media" className="w-[100vw] flex items-center justify-center text-[black] no-underline transition-all hover:transition-all hover:bg-[#86673ba7]">
             <p
-              className={`${isActive == 'media' ? 'open' : 'close'}`}
-              onClick={() => handleLinkActive('media')}
+              className={`${isActive == 'gallery' ? 'open' : 'close'}`}
+              onClick={() => handleLinkActive('gallery')}
             >
-              MEDIA
+              GALLERY
             </p>
           </Link>
 

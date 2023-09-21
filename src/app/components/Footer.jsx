@@ -12,7 +12,7 @@ export default function Footer() {
 
             <div className='h-[250px] sm:p-2 flex items-center sm:justify-center font-cinzel text-[36px] sm:text-[30px] font-[500]'>
             <span className='h-[100%] w-[200px] flex items-center justify-center sm:hidden'>
-            <img src='/immaculate mother.png' width={120}/>
+            <img src='/ccoa_logo.png' width={120}/>
             </span>
             Catholic Church of the Assumption
             <br />

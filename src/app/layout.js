@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
       
   return (
 <html lang="en">
-<link rel="icon" href="/immaculate mother.png "/>
+<link rel="icon" href="/ccoa_logo.png "/>
 <body>
 <main className='relative'>
 
